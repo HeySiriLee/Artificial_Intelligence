@@ -14,7 +14,7 @@ def ChatGPTadd(human_chat,ai_chat):
     conn = pymysql.connect (
         host = "127.0.0.1",
         user = "chat",
-        password = "@ai1234@",
+        password = "Enter the password",
         port = 3306,
         db = "chatdb",
         charset = "utf8"

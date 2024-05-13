@@ -5,7 +5,7 @@ import os
 OPENAI_KEY = os.environ.get("OPENAI_API_KEY")
 
 # Preferences
-# openai key 등록
+# Register a openai key
 openai.api_key = OPENAI_KEY
 
 # Select the AI model
