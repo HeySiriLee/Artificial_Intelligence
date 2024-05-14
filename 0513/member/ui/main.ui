@@ -17,7 +17,7 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="leSearch">
     <property name="geometry">
      <rect>
       <x>65</x>
@@ -27,7 +27,7 @@
      </rect>
     </property>
     <property name="text">
-     <string> </string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="btnSearch">
@@ -107,16 +107,6 @@ background-color: rgb(119, 118, 123);</string>
      <string>Delete</string>
     </property>
    </widget>
-   <widget class="QTableView" name="tableView">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>45</y>
-      <width>340</width>
-      <height>260</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btnClose">
     <property name="geometry">
      <rect>
@@ -134,6 +124,16 @@ background-color: rgb(0, 0, 0);</string>
      <string>X</string>
     </property>
    </widget>
+   <widget class="QTableWidget" name="tblMem">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>45</y>
+      <width>340</width>
+      <height>260</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -141,7 +141,7 @@ background-color: rgb(0, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>360</width>
-     <height>22</height>
+     <height>28</height>
     </rect>
    </property>
   </widget>

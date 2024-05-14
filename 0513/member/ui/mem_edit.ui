@@ -121,7 +121,7 @@
     <string>* is required !</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnRes">
+  <widget class="QPushButton" name="btnEdit">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -136,7 +136,7 @@ background-color: rgb(119, 118, 123);
 border-radius: 5px;</string>
    </property>
    <property name="text">
-    <string>It's register :)</string>
+    <string>Edit :)</string>
    </property>
   </widget>
   <widget class="QSplitter" name="splitter">
