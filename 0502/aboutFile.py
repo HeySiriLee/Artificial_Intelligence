@@ -11,7 +11,7 @@ print("test2: world!", file = saveExFile)
 saveExFile.close()
 
 # load 
-# 열꺼야("File name", "read", "encoding language")
+# open("File name", "read", "encoding language")
 loadExFile = open("exfile.txt", "r", encoding="utf=8")
 
 while True:
