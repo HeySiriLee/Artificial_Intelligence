@@ -1,0 +1,17 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+configuration/
+face_data_set/
+face_origin_data/
+migrations/
+
+*.jpg
+*.mp4
