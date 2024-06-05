@@ -23,7 +23,7 @@ def pointDraw():
 
     i = 0
     for data in pointList:
-        cv2.circle(tmpImg, data, 10, (0, 0, 255), cv2.FILLED)
+        cv2.circle(tmpImg, tuple(data), 10, (0, 0, 255), cv2.FILLED)
     
     return tmpImg
 
@@ -56,7 +56,7 @@ while cv2.waitKey(1) != ord('q'):
     pos = cv2.getTrackbarPos('threshold', winnames)
     ret, binary = cv2.threshold(gray_image, pos, 255, cv2.THRESH_BINARY)
     
-    cv2.imshow('winnames', binary)
+    cv2.imshow(winnames, binary)
 
     if cv2.waitKey(1) == ord('s'):
         cv2.imwrite('./test_data/car02_05.jpg', binary)
